@@ -30,17 +30,22 @@
             </button>
             <a class="navbar-brand" href="#">PAPA JOE'S</a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/writer">Writer</a>
+                        <a class="nav-link scrollto" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact</a>
+                        <a class="nav-link" href="/menu">Menu</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
