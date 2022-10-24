@@ -11,7 +11,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: url("../img/about.jpg");
+    background: url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
