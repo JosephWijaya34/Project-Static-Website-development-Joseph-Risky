@@ -51,7 +51,20 @@
             </div>
         </div>
     </header>
-    <div class="hero"></div>
+    <div class="hero">
+        <div class="container heroSpace">
+            <div class="heroFirst">
+                <h1>Always Give Priority To Taste & Quality </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
+                </p>
+                <div class="btn btn-primary">Hubungi Kami</div>
+            </div>
+            <div class="heroSecond">
+                <img class="w-50" src="img/salmonSushiRoll.jpeg">
+            </div>
+        </div>
+    </div>
     <div class="container">
         @yield('content')
     </div>
@@ -60,9 +73,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
-    {{--!link js --}}
+    {{-- !link js --}}
     <script src="js/script.js"></script>
-    
+
 </body>
 
 </html>

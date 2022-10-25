@@ -9,35 +9,6 @@ body {
     background-color: #E8E8E8;
 }
 
-.hero {
-    height: 200vh;
-    background: url("../img/hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-/* navbar Start*/
-.navBlur {
-    backdrop-filter: blur(10px) !important;
-    transition-duration: 2s;
-
-
-}
-.navBlack{
-  background-color:black;
-}
-
-.hoverNav {
-    color: #DBDBDB;
-}
-
-.hoverNav:hover {
-    color: #FFED50;
-}
-
-/* navbar End */
 
 .logo {
     font-family: 'Lato', sans-serif;
@@ -51,6 +22,57 @@ body {
     background-color: #FFFF00;
     color: #FFC0CB;
 }
+
+/* navbar Start*/
+
+.navBlur {
+    backdrop-filter: blur(10px) !important;
+    transition-duration: 2s;
+}
+
+.navBlack {
+    background-color: black;
+}
+
+.hoverNav {
+    color: #DBDBDB;
+}
+
+.hoverNav:hover {
+    color: #FFED50;
+}
+
+
+/* navbar End */
+
+
+/* Hero section start */
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroSpace{
+    height: 100vh;
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+}
+
+
+/* Hero section end */
 
 @media (max-width: 1060px) {}
 
