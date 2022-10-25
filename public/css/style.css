@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
 body {
     background-color: #E8E8E8;
 }
+
 
 
 .logo {
@@ -21,6 +23,14 @@ body {
 .navbar-default .navbar-nav>li>a:focus {
     background-color: #FFFF00;
     color: #FFC0CB;
+}
+
+.fontTebal {
+    font-family: 'Lato', sans-serif;
+}
+
+.fontTipis {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* navbar Start*/
@@ -47,6 +57,30 @@ body {
 
 
 /* Hero section start */
+
+/* hero font */
+.heroHead {
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #BE4C1F, #D0A138);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroParagraph {
+    color: #FFED50;
+}
+
+.btn-merah {
+    color: #ffffff;
+    background-color: #B20701;
+}
+
+.btn-merah:hover {
+    transition: 2s;
+    color: black;
+    background-color: #8a0601;
+}
+
 .hero {
     height: 100vh;
     width: 100%;
@@ -56,7 +90,7 @@ body {
     background-position: center;
 }
 
-.heroSpace{
+.heroSpace {
     height: 100vh;
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
@@ -65,15 +99,22 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack:center;
-    -webkit-justify-content:center;
-    -ms-flex-pack:center;
-    justify-content:center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
-
 
 /* Hero section end */
 
 @media (max-width: 1060px) {}
 
-@media (max-width: 630px) {}
+@media (max-width: 768px) {
+    #showHeroMobile {
+        display: block!important;
+    }
+
+    #showHeroDekstop {
+        display: none;
+    }
+}

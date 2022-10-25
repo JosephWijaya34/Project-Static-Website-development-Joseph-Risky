@@ -52,18 +52,7 @@
         </div>
     </header>
     <div class="hero">
-        <div class="container heroSpace">
-            <div class="heroFirst">
-                <h1>Always Give Priority To Taste & Quality </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
-                </p>
-                <div class="btn btn-primary">Hubungi Kami</div>
-            </div>
-            <div class="heroSecond">
-                <img class="w-50" src="img/salmonSushiRoll.jpeg">
-            </div>
-        </div>
+        @yield('hero')
     </div>
     <div class="container">
         @yield('content')
