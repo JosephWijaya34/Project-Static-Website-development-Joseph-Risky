@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-    height: 100vh;
+    height: 200vh;
     background: url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,9 +19,14 @@ body {
 
 
 /* navbar Start*/
-
 .navBlur {
     backdrop-filter: blur(10px) !important;
+    transition-duration: 2s;
+
+
+}
+.navBlack{
+  background-color:black;
 }
 
 .hoverNav {
@@ -31,7 +36,6 @@ body {
 .hoverNav:hover {
     color: #FFED50;
 }
-
 
 /* navbar End */
 

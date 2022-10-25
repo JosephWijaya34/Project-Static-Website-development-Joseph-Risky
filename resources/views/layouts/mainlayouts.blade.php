@@ -21,7 +21,7 @@
     </head>
 
 <body class="">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navBlur">
+    <header id="dynamic" class="navbar fixed-top navbar-expand-lg navbar-dark navBlack">
         <div class="container-fluid">
             <a class="navbar-brand logo" href="#">PAPA JOE'S</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,7 +50,7 @@
 
             </div>
         </div>
-    </nav>
+    </header>
     <div class="hero"></div>
     <div class="container">
         @yield('content')
@@ -60,6 +60,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
     </script>
+    {{--!link js --}}
+    <script src="js/script.js"></script>
+    
 </body>
 
 </html>
