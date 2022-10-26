@@ -10,7 +10,7 @@ body {
     background-color: #E8E8E8;
 }
 
-
+a {text-decoration: none; background-color: none; }
 
 .gradient {
     font-family: 'Lato', sans-serif;
@@ -19,6 +19,15 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.buttonMenu{
+    color: #ffffffe8;
+    background-color: #990a05;
+}
+.buttonMenu:hover{
+    transition: 2s;
+    color: #ffffff;
+    background-color: #B20701;
+}
 .fontTebal {
     font-family: 'Lato', sans-serif;
 }
@@ -69,14 +78,15 @@ body {
 }
 
 .btn-merah {
-    color: #ffffff;
-    background-color: #B20701;
+    transition: 1.2;
+    color: #ffffffe8;
+    background-color: #990a05;
 }
 
 .btn-merah:hover {
-    transition: 2s;
-    color: black;
-    background-color: #8a0601;
+    transition: 1.2s;
+    color: #ffffff;
+    background-color: #B20701;
 }
 
 .heroBackground{
@@ -120,31 +130,25 @@ body {
     justify-content: center;
 }
 
-/* .background {
-    background-color: black !important;
-    padding: 20px;
-    box-sizing: border-box;
-    opacity: 85%;
-
-} */
-
 /* Hero section end */
 
-/* Hero Service Section Start */
+/* Service Section Start */
 .backgroundService{
     background-color: #A6320E !important;
 }
 .warnaFontService{
     color: #FFFFFF;
 }
-/* Hero Service Section End */
-/* ! HOMEBLADE.PHP END */
 
-/* Hero Our special menu Start */
+/* Service Section End */
+
+
+/* section Our special menu Start */
 .backgroundOurSpecialMenu{
     background-color: #E8E8E8;
 }
-/* Hero Our special menu End */
+/* section Our special menu End */
+
 /* service home */
 .dot {
     padding: 15px;
@@ -154,6 +158,60 @@ body {
   }
 
   /* end service home */
+
+
+  /* SECTION footer start */
+.footerWhite{
+    color: rgb(151, 151, 151);
+}
+
+.footerWhite:hover{
+    transition: 1.1s;
+    color: white;
+}
+  /* SECTION footer end */
+/* ! HOMEBLADE.PHP END */
+
+
+/* !menu.blade.php start */
+.card-size{
+    width: 80%;
+}
+
+/* truncate deskrisi */
+.text-short-container {
+    text-align: justify;
+}
+.text-short-container p {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card{
+    transition: 4s;
+    box-shadow: 0 0 11px rgba(33,33,33,.1); 
+}
+.card:hover{
+    transition: 2s;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+
+    -webkit-transform: all .3s ease-in-out time;
+    -moz-transform: all .3s ease-in-out time;
+    -ms-transform: all .3s ease-in-out time;
+    -o-transform: all .3s ease-in-out time;
+    transition: all .3s ease-in-out time;
+    box-shadow: 0 10px 11px rgba(33,33,33,.2); 
+}
+/* !menu.blade.php end */
+
+
+
+
 
 @media (max-width: 1060px) {
 
@@ -180,6 +238,9 @@ body {
     }
 
     #showHeroDekstop {
+        display: none;
+    }
+    .footerHide{
         display: none;
     }
      /* Hero section end */
