@@ -78,11 +78,6 @@
                     </div>
 
                 </div>
-
-
-
-
-
             </div>
             {{-- card menu end --}}
         </div>

@@ -138,13 +138,49 @@ body {
     color: #FFFFFF;
 }
 /* Hero Service Section End */
-/* ! HOMEBLADE.PHP END */
 
 /* Hero Our special menu Start */
 .backgroundOurSpecialMenu{
     background-color: #E8E8E8;
 }
+
+.textColourOurSpecialMenu{
+    color: #BE4C1F;
+}
 /* Hero Our special menu End */
+
+/* Hero Partner Start */
+.backgroundPartner{
+    background-color: #E8E8E8;
+}
+
+.textColourPartner{
+    color: #BE4C1F;
+}
+/* Hero Partner End */
+
+/* Hero Contact Start */
+.dotContact {
+    padding:5px;
+    background: white;
+    border-radius: 100% !important;
+    display: inline-block;
+  }
+
+.backgroundContact{
+    background-color: #1A1618;
+}
+
+.textColourContact1{
+    color: #FFFFFF;
+}
+
+.textColourContact2{
+    color: #BE4C1F;
+}
+/* Hero Contact End */
+/* ! HOMEBLADE.PHP END */
+
 /* service home */
 .dot {
     padding: 15px;
@@ -152,7 +188,6 @@ body {
     border-radius: 100% !important;
     display: inline-block;
   }
-
   /* end service home */
 
 @media (max-width: 1060px) {
