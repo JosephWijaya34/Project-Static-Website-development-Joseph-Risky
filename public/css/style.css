@@ -134,10 +134,26 @@ body {
 .backgroundService{
     background-color: #A6320E !important;
 }
+.warnaFontService{
+    color: #FFFFFF;
+}
 /* Hero Service Section End */
 /* ! HOMEBLADE.PHP END */
 
+/* Hero Our special menu Start */
+.backgroundOurSpecialMenu{
+    background-color: #E8E8E8;
+}
+/* Hero Our special menu End */
+/* service home */
+.dot {
+    padding: 15px;
+    background: black;
+    border-radius: 100% !important;
+    display: inline-block;
+  }
 
+  /* end service home */
 
 @media (max-width: 1060px) {
 
