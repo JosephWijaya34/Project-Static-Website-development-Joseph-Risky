@@ -23,7 +23,7 @@
 <body class="">
     <header id="dynamic" class="navbar fixed-top navbar-expand-lg navbar-dark navBlack">
         <div class="container-fluid">
-            <a class="navbar-brand logo" href="#">PAPA JOE'S</a>
+            <a class="navbar-brand gradient" href="#">PAPA JOE'S</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -51,12 +51,13 @@
             </div>
         </div>
     </header>
-    <div class="hero">
+    <div class=" hero ">
         @yield('hero')
     </div>
-    <div class="container">
+  
         @yield('content')
-    </div>
+ 
+    
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

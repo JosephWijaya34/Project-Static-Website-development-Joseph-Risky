@@ -2,34 +2,70 @@
 @section('title', 'Home')
 
 @section('hero')
-<div class="container heroSpace">
-    <div class="row d-flex justify-content-center">
+    <div class="container heroSpace">
+        <div class="row d-flex justify-content-center align-items-center">
 
-        {{-- image mobile --}}
-        <div id="showHeroMobile"  class="col-12 col-md-6 heroSecond text-center" style="display: none;">
-            <img  class="w-100 rounded-3" src="img/salmonSushiRoll.jpeg" >
-        </div>
+            {{-- image mobile --}}
+            <div id="showHeroMobile" class="col-12 col-lg-6 heroSecond text-center mb-4" style="display: none;">
+                <img class="w-75 rounded-3" src="img/salmonSushiRoll.jpeg">
+            </div>
 
-        <div class="col-12 col-md-5 heroFirst">
-            <h1 class="fontTebal heroHead">Always Give Priority To Taste & Quality </h1>
-            <p class="fontTipis heroParagraph">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
-                fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
-            </p>
-            <div class="btn btn-merah">Hubungi Kami</div>
-        </div>
+            <div class="col-12 col-lg-5 background">
+                <h1 class="fontTebal heroHead ">Always Give Priority To Taste & Quality </h1>
+                <p class="fontTipis heroParagraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
+                    fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
+                </p>
+                <div class="btn btn-merah">Hubungi Kami</div>
+            </div>
 
-        {{-- image dekstop --}}
-        <div id="showHeroDekstop"  class="col-12 col-md-6 heroSecond text-center">
-            <img  class="w-50 rounded-3" src="img/salmonSushiRoll.jpeg" >
+            {{-- image dekstop --}}
+            <div id="showHeroDekstop" class="col-12 col-lg-6  text-center">
+                <img class="w-75 rounded-3" src="img/salmonSushiRoll.jpeg">
+            </div>
+
         </div>
 
     </div>
-
-</div>
 @endsection
 @section('content')
-<h1>Home</h1>
+    {{-- About Us Section Start --}}
+    <div class="container">
+        <div class="sectionSpace">
+            <h5 class="fontTebal gradient">
+                ABOUT US
+            </h5>
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-12 col-lg-5 about-first">
+                    <h3 class="fontTebal">TEXT 1</h3>
+                    <p class="fontTipis ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
+                        fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-5 about-second">
+                    <h3 class="fontTebal">TEXT 2</h3>
+                    <p class="fontTipis ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
+                        fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- About Us Section End --}}
+
+    {{-- Section Service Start --}}
+    <div class=" sectionSpace backgroundService">
+        <div class="container">
+            <h1>tes</h1>
+        </div>
+
+    </div>
+    {{-- Section Service End --}}
+
 
 
 @endsection

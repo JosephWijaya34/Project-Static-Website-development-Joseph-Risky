@@ -12,17 +12,11 @@ body {
 
 
 
-.logo {
+.gradient {
     font-family: 'Lato', sans-serif;
     background: -webkit-linear-gradient(left, #BE4C1F, #D0A138);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
-    background-color: #FFFF00;
-    color: #FFC0CB;
 }
 
 .fontTebal {
@@ -30,9 +24,13 @@ body {
 }
 
 .fontTipis {
+
     font-family: 'Roboto', sans-serif;
 }
 
+.sectionSpace{
+    margin-top: 50px;
+}
 /* navbar Start*/
 
 .navBlur {
@@ -55,7 +53,7 @@ body {
 
 /* navbar End */
 
-
+/* ! HOMEBLADE.PHP START */
 /* Hero section start */
 
 /* hero font */
@@ -81,16 +79,33 @@ body {
     background-color: #8a0601;
 }
 
+.heroBackground{
+    background-color: black;
+
+}
 .hero {
+    position: relative;
+}
+
+.hero::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+     opacity: 95%;
     height: 100vh;
     width: 100%;
     background: url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    filter: grayscale(50%);
+    filter: brightness(45%)
 }
 
 .heroSpace {
+
     height: 100vh;
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
@@ -105,16 +120,52 @@ body {
     justify-content: center;
 }
 
+/* .background {
+    background-color: black !important;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 85%;
+
+} */
+
 /* Hero section end */
 
-@media (max-width: 1060px) {}
+/* Hero Service Section Start */
+.backgroundService{
+    background-color: #A6320E !important;
+}
+/* Hero Service Section End */
+/* ! HOMEBLADE.PHP END */
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 1060px) {
+
+    /* ! HOMEBLADE.PHP START */
+    /* Hero section start */
     #showHeroMobile {
-        display: block!important;
+        display: block !important;
     }
 
     #showHeroDekstop {
         display: none;
     }
+
+    /* Hero section end */
+    /* ! HOMEBLADE.PHP END */
+
+}
+
+@media (max-width: 768px) {
+      /* ! HOMEBLADE.PHP START */
+    /* Hero section start */
+    #showHeroMobile {
+        display: block !important;
+    }
+
+    #showHeroDekstop {
+        display: none;
+    }
+     /* Hero section end */
+    /* ! HOMEBLADE.PHP END */
 }
