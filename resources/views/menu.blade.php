@@ -54,8 +54,6 @@
                             </div>
                         </div>
                 </div>
-<<<<<<< HEAD
-=======
 
 
                 <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
@@ -106,28 +104,9 @@
                     </div>  
                 </div>
 
->>>>>>> menu
             </div>
             {{-- card menu end --}}
         </div>
     </div>
-        <div class=" sectionSpace " >
-            <div class="" style="background-color:black;">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top p-5">
-                  <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
-              
-                  <a href="/" class="col-md-4 gradient justify-content-center text-center align-items-center">
-                    PAPA JOE'S
-                  </a>
-              
-                  <ul class="nav col-md-4 justify-content-md-end footerHide">
-                    <li class="nav-item "><a href="#" class="nav-link px-2 footerWhite" >Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">Menu</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">Service</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">Contact</a></li>
-                  </ul>
-                </footer>
-            </div>
-        </div>
+        
     @endsection
