@@ -58,14 +58,98 @@
     {{-- About Us Section End --}}
 
     {{-- Section Service Start --}}
+
     <div class=" sectionSpace backgroundService">
         <div class="container">
-            <h1>tes</h1>
-        </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 col-lg-3 service-first">
+                    {{-- buat logo gambar service --}}
+                    <div class="d-flex justify-content-center">
+                        <span class="dot rounded m-4">
+                            <iconify-icon icon="carbon:order-details" style="color: #d0a138;" width="85" height="80">
+                            </iconify-icon>
+                        </span>
+                    </div>
+                    {{-- buat heading --}}
+                    <div class="d-flex justify-content-center mb-2">
+                        <h4 class="fontTebal warnaFontService text-center">Easy to Order</h4>
+                    </div>
+                    {{-- buat isi paragraf --}}
+                    <div class="d-flex justify-content-center">
+                        <p class="fontTipis warnaFontService text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam accusantium
+                            officia sapiente impedit praesentium quod exercitationem vitae ipsa qui sit perspiciatis atque
+                            itaque, delectus laborum rem quisquam nisi!
+                        </p>
+                    </div>
+                </div>
 
+                <div class="col-10 col-lg-3 service-second">
+                    {{-- buat logo gambar service --}}
+                    <div class="d-flex justify-content-center">
+                        <span class="dot rounded m-4">
+                            <iconify-icon icon="carbon:delivery" style="color: #d0a138;" width="85" height="80">
+                            </iconify-icon>
+                        </span>
+                    </div>
+                    {{-- buat heading --}}
+                    <div class="d-flex justify-content-center mt-2 mb-2">
+                        <h4 class="fontTebal warnaFontService text-center">On Time</h4>
+                    </div>
+                    {{-- buat isi paragraf --}}
+                    <div class="d-flex justify-content-center">
+                        <p class="fontTipis warnaFontService text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam accusantium
+                            officia sapiente impedit praesentium quod exercitationem vitae ipsa qui sit perspiciatis atque
+                            itaque, delectus laborum rem quisquam nisi!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-10 col-lg-3 service-third">
+                    {{-- buat logo gambar service --}}
+                    <div class="d-flex justify-content-center">
+                        <span class="dot rounded m-4">
+                            <iconify-icon icon="bxs:book-bookmark" style="color: #d0a138;" width="85" height="80">
+                            </iconify-icon>
+                        </span>
+                    </div>
+                    {{-- buat heading --}}
+                    <div class="d-flex justify-content-center mt-2 mb-2">
+                        <h4 class="fontTebal warnaFontService text-center">Best Quality</h4>
+                    </div>
+                    {{-- buat isi paragraf --}}
+                    <div class="d-flex justify-content-center">
+                        <p class="fontTipis warnaFontService text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam accusantium
+                            officia sapiente impedit praesentium quod exercitationem vitae ipsa qui sit perspiciatis atque
+                            itaque, delectus laborum rem quisquam nisi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
     {{-- Section Service End --}}
 
+    {{-- Our special menu section Start --}}
 
+    <div class="container">
+        <div class="sectionSpace backgroundOurSpecialMenu">
+            <div class="row d-flex justify-content center">
+                <div class="col-10 mx-auto">
+                    <h1 class="text-center">Our Special Menu</h1>
+                </div>
+                <div class="col-6 mx-auto">
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugiat modi quos magnam
+                        consequuntur obcaecati perspiciatis soluta, alias est dolore delectus odio, itaque blanditiis ullam
+                        commodi eius, illo accusamus corrupti?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Our special menu section End --}}
 
 @endsection
