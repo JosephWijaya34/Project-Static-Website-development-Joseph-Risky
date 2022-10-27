@@ -51,6 +51,15 @@ a {text-decoration: none; background-color: none; }
     background-color: black;
 }
 
+#dynamic{
+    background-color: black;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+
 .hoverNav {
     color: #DBDBDB;
 }
