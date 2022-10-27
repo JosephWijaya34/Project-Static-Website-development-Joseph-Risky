@@ -222,6 +222,7 @@
     {{-- Partner Section End --}}
 
     {{-- Contact Section Start --}}
+
     <div id="Contact" class="sectionSpace backgroundContact">
         <div class="container">
             {{-- text Contact Start --}}
@@ -233,13 +234,13 @@
             {{-- info Contact Start --}}
             <div class="row d-flex flex-row justify-content-center">
                 <div class="col-12 col-lg-6">
-                    <iframe class="rounded-5"
+                    <iframe class="rounded-5" class="w-full"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6477440933427!2d112.68721011530367!3d-7.280860973575773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc3d3c4b4485%3A0x6ccfddfc0b27c2c1!2sJl.%20Darmo%20Permai%20Sel.%20XIII%20No.6%2C%20Pradahkalikendal%2C%20Kec.%20Dukuhpakis%2C%20Kota%20SBY%2C%20Jawa%20Timur%2060226!5e0!3m2!1sid!2sid!4v1666795738505!5m2!1sid!2sid"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="row">
+                    {{-- <div class="row ">
                         <div class="col-2">
                             <span class="dotContact">
                                 <iconify-icon icon="akar-icons:location" width="55" height="50"></iconify-icon>
@@ -286,12 +287,50 @@
                             <h4 class="textColourContact1 fontTebal">WhatsApp</h4>
                             <p class="textColourContact1 fontTipis">+62 8222 1030 638</p>
                         </div>
+                    </div> --}}
+
+
+                    <div class="d-flex flex-md-column bd-highlight mb-3 row">
+                        <div class="col-6">
+                            <span class="dotContact">
+                                <iconify-icon icon="akar-icons:location" width="55" height="50"></iconify-icon>
+                            </span>
+                            <h4 class="textColourContact1 fontTebal">Location</h4>
+                            <p class="textColourContact1 fontTipis">Darmo Permai Selatan</p>
+                        </div>
+
+                        <div class="col-6">
+                            <span class="dotContact">
+                                <iconify-icon icon="tabler:clock-hour-3" width="55" height="50"></iconify-icon>
+                            </span>
+                            <h4 class="textColourContact1 fontTebal">Open Hours</h4>
+                            <p class="textColourContact1 fontTipis">10.00 - 15.00 WIB</p>
+                        </div>
+
+                        <div class="col-6">
+                            <span class="dotContact">
+                                <iconify-icon icon="dashicons:email-alt" width="55" height="50">
+                                </iconify-icon>
+                            </span>
+
+                            <h4 class="textColourContact1 fontTebal">E-Mail</h4>
+                            <p class="textColourContact1 fontTipis">papajoe@gmail.com risky papa zola</p>
+                        </div>
+                        
+                        <div class="col-6">
+                            <span class="dotContact">
+                                <iconify-icon icon="akar-icons:location" width="55" height="50">
+                                </iconify-icon>
+                            </span>
+                            <h4 class="textColourContact1 fontTebal">WhatsApp</h4>
+                            <p class="textColourContact1 fontTipis">+62 8222 1030 638</p>
+                        </div>
+                        
                     </div>
                 </div>
+                {{-- info Contact End --}}
             </div>
-            {{-- info Contact End --}}
         </div>
-    </div>
-    {{-- Contact Section End --}}
+        {{-- Contact Section End --}}
 
-@endsection
+    @endsection
