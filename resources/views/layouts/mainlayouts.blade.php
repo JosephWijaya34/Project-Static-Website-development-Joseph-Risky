@@ -21,7 +21,7 @@
     </head>
 
 <body class="">
-    <header id="dynamic" class="navbar fixed-top navbar-expand-lg navbar-dark navBlack">
+    <header id="" class="navbar fixed-top navbar-expand-lg navbar-dark navBlack navBlur">
         <div class="container-fluid">
             <a class="navbar-brand gradient" href="#">PAPA JOE'S</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -35,16 +35,19 @@
                         <a class="nav-link hoverNav" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#">About</a>
+                        <a class="nav-link scrollto hoverNav" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link hoverNav" href="/menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#">Service</a>
+                        <a class="nav-link scrollto hoverNav" href="#service">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#">Contact</a>
+                        <a class="nav-link scrollto hoverNav" href="#parthner">Partner</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto hoverNav" href="#contact">Contact</a>
                     </li>
                 </ul>
 
@@ -59,7 +62,7 @@
 
      
             <div class="" style="background-color:black;">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5" >
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 container" >
                   <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
               
                   <a href="/" class="col-md-4 gradient justify-content-center text-center align-items-center">
@@ -68,13 +71,16 @@
               
                   <ul class="nav col-md-4 justify-content-md-end footerHide">
                     <li class="nav-item "><a href="#" class="nav-link px-2 footerWhite">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">Menu</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">Service</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 footerWhite">Contact</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link px-2 footerWhite">About</a></li>
+                    <li class="nav-item"><a href="/menu" class="nav-link px-2 footerWhite">Menu</a></li>
+                    <li class="nav-item"><a href="#service" class="nav-link px-2 footerWhite">Service</a></li>
+                    <li class="nav-item"><a href="#parthner" class="nav-link px-2 footerWhite">Pathner</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link px-2 footerWhite">Contact</a></li>
                   </ul>
                 </footer>
             </div>
+
+            <a href="#" class="myBtn" title="Go to top">Top</a>
     
 
 

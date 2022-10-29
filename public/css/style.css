@@ -6,10 +6,41 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: #E8E8E8;
 }
 
+.myBtn {
+ 
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 2; /* Make sure it does not overlap */
+  border: 1px solid black; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  text-decoration:none;
+  color:black;
+  opacity:85%;
+  display:none;
+}
+
+.myBtn:hover{
+    color:black;
+    background-color:black:
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
 a {text-decoration: none; background-color: none; }
 
 .gradient {
@@ -47,18 +78,20 @@ a {text-decoration: none; background-color: none; }
     transition-duration: 2s;
 }
 
-.navBlack {
-    background-color: black;
-}
 
-#dynamic{
-    background-color: black;
+.fixed{
     position: fixed;
-    top: -50px;
     width: 100%;
     display: block;
-    transition: top 0.3s;
 }
+
+.dynamic{
+    background-color: black;
+    position: fixed;
+    top:0px;
+    transition: 1s;
+}
+
 
 .hoverNav {
     color: #DBDBDB;
@@ -75,12 +108,6 @@ a {text-decoration: none; background-color: none; }
 /* Hero section start */
 
 /* hero font */
-.heroHead {
-    font-weight: bold;
-    background: -webkit-linear-gradient(left, #BE4C1F, #D0A138);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .heroParagraph {
     color: #FFED50;
@@ -153,7 +180,7 @@ a {text-decoration: none; background-color: none; }
 /* Service Section End */
 
 
-/* section Our special menu Start */
+/* section menu */
 .backgroundOurSpecialMenu{
     background-color: #E8E8E8;
 }
@@ -161,7 +188,14 @@ a {text-decoration: none; background-color: none; }
 .textColourOurSpecialMenu{
     color: #BE4C1F;
 }
-/* Hero Our special menu End */
+
+.menuColorText{
+    opacity:85%;
+    border-radius:15px;
+    padding:5px;
+    background-color:black;
+}
+/* section menu End */
 
 /* Hero Partner Start */
 .backgroundPartner{
@@ -175,13 +209,12 @@ a {text-decoration: none; background-color: none; }
 
 /* Hero Contact Start */
 .dotContact {
-    padding:5px;
     background: white;
     border-radius: 100% !important;
-    display: inline-block;
   }
 
 .backgroundContact{
+    padding:0px;
     background-color: #1A1618;
 }
 
@@ -229,7 +262,7 @@ a {text-decoration: none; background-color: none; }
     text-align: justify;
 }
 .text-short-container p {
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -291,4 +324,17 @@ a {text-decoration: none; background-color: none; }
     }
      /* Hero section end */
     /* ! HOMEBLADE.PHP END */
+
+
+     /* ! MENU.PHP START */
+     /* card text start */
+    .cardHeadText{
+        padding:0px;
+        font-size:15px;
+    }
+    .cardParagraphText{
+        font-size:10px;
+    }
+     /* card text end */
+     /* ! MENU.PHP END */
 }

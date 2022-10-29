@@ -18,3 +18,9 @@ Route::get('/',[MakananController::class,'indexHome']);
 
 Route::get('/menu',[MakananController::class,'indexMenu']);
 
+
+Route::get('/detail', function (){
+    return view('detail', [
+        'title' => 'Detail'
+    ]);
+});
