@@ -18,18 +18,21 @@ class Makanan extends Model
             'menuFavorite' => 1
         ],
         [
+            'id' => 2,
             'namaMakanan' => 'Swekiauw Ayam',
             'deskripsi' => 'isian daging cincang ayam di campur dengan udang di bungkus dengan kulit pangsit dan rasakan kenikmatan duniawi',
             'fotoMakanan' => 'swekiauw.jpeg',
             'menuFavorite' => 1
         ],
         [
+            'id' => 3,
             'namaMakanan' => 'Takoyaki',
             'deskripsi' => 'makanan khas jepang yang nikmat dan di beri bumbu khas PAPA JOE',
             'fotoMakanan' => 'takoyaki.jpeg',
             'menuFavorite' => 1
         ],
         [
+            'id' => 4,
             'namaMakanan' => 'salmon Mentai',
             'deskripsi' => 'makanan khas jepang yang nikmat dan di beri bumbu khas PAPA JOE',
             'fotoMakanan' => 'salmonmentai.jpeg',
