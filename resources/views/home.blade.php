@@ -147,7 +147,15 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                @foreach ($listMakanan as $makananFavorite)
+                    <div class="carousel-item active">
+                        <img src="img/{{ $makananFavorite['fotoMakanan'] }}" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block menuColorText">
+                            <h5>Nama Makanan</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vel.</p>
+                        </div>
+                    </div>
+                    {{-- <div class="carousel-item">
                     <img src="img/salmonSushiRoll.jpeg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block menuColorText">
                         <h5>Nama Makanan</h5>
@@ -160,14 +168,8 @@
                         <h5>Nama Makanan</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vel.</p>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/salmonSushiRoll.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block menuColorText">
-                        <h5>Nama Makanan</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, vel.</p>
-                    </div>
-                </div>
+                </div> --}}
+                @endforeach
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
@@ -248,8 +250,8 @@
                             <div class="d-flex">
                                 <div class="">
                                     <iconify-icon icon="tabler:clock-hour-3" width="55" height="50"
-                                    class="dotContact">
-                                </iconify-icon>
+                                        class="dotContact">
+                                    </iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">
@@ -264,8 +266,8 @@
                             <div class="d-flex">
                                 <div class="">
                                     <iconify-icon icon="dashicons:email-alt" width="55" height="50"
-                                    class="dotContact">
-                                </iconify-icon>
+                                        class="dotContact">
+                                    </iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">
@@ -279,8 +281,8 @@
                         <div class="col-12">
                             <div class="d-flex">
                                 <div class="">
-                                    <iconify-icon icon="bxl:whatsapp"  width="55" height="50"
-                                    class="dotContact"></iconify-icon>
+                                    <iconify-icon icon="bxl:whatsapp" width="55" height="50" class="dotContact">
+                                    </iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">

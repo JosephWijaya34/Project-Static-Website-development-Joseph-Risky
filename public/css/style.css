@@ -262,7 +262,7 @@ a {text-decoration: none; background-color: none; }
     text-align: justify;
 }
 .text-short-container p {
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
