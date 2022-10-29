@@ -57,7 +57,10 @@ class MakananController extends Controller
      */
     public function show($id)
     {
-        return Makanan::showMakanan($id);
+        return view('menu',[
+            'detailMakanan' => Makanan::showMakanan($id)
+        ]);
+
     }
 
     /**

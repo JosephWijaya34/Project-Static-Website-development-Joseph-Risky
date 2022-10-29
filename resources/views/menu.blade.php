@@ -46,8 +46,8 @@
                             <div class="p-3 row text-short-container justify-content-center">
                                 <h5 class="card-title text-center cardHeadText">{{ $makanan['namaMakanan'] }}</h5>
                                 <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}</p>
-                                <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Detail</a>
+                                <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
+                                    data-bs-toggle="modal" data-bs-target="/detailMakanan/{{ $makanan['id'] }}">Detail</a>
                             </div>
                         </div>
 
@@ -146,22 +146,25 @@
 
 
     {{-- modal --}}
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+    @if (isset('detail'))
+        <div class="modal fade" id="/detailMakanan/{{ $makanan['id'] }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">{{ $detailMakanan['namaMakanan'] }}</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>{{ $detailMakanan['deskripsi'] }}</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    @endif
 
 @endsection
