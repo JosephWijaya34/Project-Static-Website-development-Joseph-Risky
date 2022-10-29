@@ -11,7 +11,7 @@
             </div>
 
             <div class="col-12 col-lg-5 background">
-                <h1 class="fontTebal heroHead">Our Menu</h1>
+                <h1 class="fontTebal gradient">Our Menu</h1>
                 <p class="fontTipis heroParagraph">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
                     fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
@@ -35,78 +35,135 @@
         </div>
 
         {{-- card menu start --}}
-        <div class="container sectionSpace">
 
-            <div class="row d-flex justify-content-center flex-wrap">
-                
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                        <div class="card card-size" >
-                            <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <div class="p-3 row text-short-container">
-                                    <h5 class="card-title">Nama Makanan</h5>
-                                    <p class="card-text  text-short-container">Some quick example text to build on the card title and make up the bulk of
-                                        the card's content. </p>
-                                    <a href="#" class="btn buttonMenu ">Detail</a>
-                                </div>
-                                
-                            </div>
+
+        <div class=" row justify-content-center sectionSpace">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card  shadow-sm">
+                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="p-3 row text-short-container justify-content-center">
+                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
+                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
+                                and make up the bulk of
+                                the card's content. </p>
+                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Detail</a>
                         </div>
+                    </div>
+                    
                 </div>
-
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                    <div class="card card-size">
-                        <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="p-3 row text-short-container">
-                                <h5 class="card-title">Nama Makanan</h5>
-                                <p class="card-text  text-short-container">Some quick example text to build on the card title and make up the bulk of
-                                    the card's content. </p>
-                                <a href="#" class="btn buttonMenu">Detail</a>
-                            </div>
-                            
-                        </div>
-                    </div>  
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                    <div class="card card-size">
-                        <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="p-3 row text-short-container">
-                                <h5 class="card-title">Nama Makanan</h5>
-                                <p class="card-text  text-short-container">Some quick example text to build on the card title and make up the bulk of
-                                    the card's content. </p>
-                                <a href="#" class="btn buttonMenu">Detail</a>
-                            </div>
-                            
-                        </div>
-                    </div>  
-                </div>
-
-                 <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                    <div class="card card-size">
-                        <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <div class="p-3 row text-short-container">
-                                <h5 class="card-title">Nama Makanan</h5>
-                                <p class="card-text  text-short-container">Some quick example text to build on the card title and make up the bulk of
-                                    the card's content. </p>
-                                <a href="#" class="btn buttonMenu">Detail</a>
-                            </div>
-                            
-                        </div>
-                    </div>  
-                </div>
-
             </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card  shadow-sm">
+                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="p-3 row text-short-container justify-content-center">
+                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
+                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
+                                and make up the bulk of
+                                the card's content. </p>
+                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Detail</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card  shadow-sm">
+                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="p-3 row text-short-container justify-content-center">
+                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
+                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
+                                and make up the bulk of
+                                the card's content. </p>
+                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Detail</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card  shadow-sm">
+                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="p-3 row text-short-container justify-content-center">
+                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
+                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
+                                and make up the bulk of
+                                the card's content. </p>
+                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Detail</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card  shadow-sm">
+                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="p-3 row text-short-container justify-content-center">
+                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
+                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
+                                and make up the bulk of
+                                the card's content. </p>
+                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Detail</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="card  shadow-sm">
+                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
+                    <div class="card-body">
+                        <div class="p-3 row text-short-container justify-content-center">
+                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
+                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
+                                and make up the bulk of
+                                the card's content. </p>
+                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Detail</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+   
             {{-- card menu end --}}
         </div>
     </div>
-        
-    @endsection
+
+
+    {{-- modal --}}
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@endsection

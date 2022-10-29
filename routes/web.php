@@ -24,3 +24,9 @@ Route::get('/menu', function (){
         'title' => 'Menu'
     ]);
 });
+
+Route::get('/detail', function (){
+    return view('detail', [
+        'title' => 'Detail'
+    ]);
+});
