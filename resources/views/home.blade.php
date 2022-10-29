@@ -158,57 +158,23 @@
 
         {{-- card menu start --}}
         <div class="row d-flex justify-content-center flex-wrap">
+            @foreach ($listMakanan as $makananFavorite)
+                @if ($makananFavorite['menuFavorite'] == 1)
+                    <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+                        <div class="card card-size">
+                            <img src="img/{{$makananFavorite['fotoMakanan']}}" class="card-img-top">
+                            <div class="card-body">
+                                <div class="p-3 row text-short-container">
+                                    <h5 class="card-title">{{$makananFavorite['namaMakanan']}}</h5>
+                                    <p class="card-text  text-short-container">{{$makananFavorite['deskripsi']}} </p>
+                                    <a href="#" class="btn buttonMenu ">Detail</a>
+                                </div>
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                <div class="card card-size">
-                    <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container">
-                            <h5 class="card-title">Nama Makanan</h5>
-                            <p class="card-text  text-short-container">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="#" class="btn buttonMenu ">Detail</a>
+                            </div>
                         </div>
-
                     </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                <div class="card card-size">
-                    <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container">
-                            <h5 class="card-title">Nama Makanan</h5>
-                            <p class="card-text  text-short-container">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="#" class="btn buttonMenu ">Detail</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
-                <div class="card card-size">
-                    <img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg&_gl=1*yhvtbi*_ga*MTc2MzAxNDUzNS4xNjY2MTU1NDEw*_ga_8JE65Q40S6*MTY2Njc3MzYyOS42LjEuMTY2Njc3MzYzNy4wLjAuMA.."
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container">
-                            <h5 class="card-title">Nama Makanan</h5>
-                            <p class="card-text  text-short-container">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="#" class="btn buttonMenu ">Detail</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+                @endif
+            @endforeach
         </div>
         {{-- card menu end --}}
     </div>
