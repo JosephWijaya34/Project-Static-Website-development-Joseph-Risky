@@ -14,7 +14,7 @@ body {
 }
 
 .myBtn {
- 
+
   position: fixed; /* Fixed/sticky position */
   bottom: 30px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
@@ -35,7 +35,7 @@ body {
 
 .myBtn:hover{
     color:black;
-    background-color:black:
+    background-color:black;
 }
 
 #myBtn:hover {
@@ -269,7 +269,7 @@ a {text-decoration: none; background-color: none; }
 }
 .card{
     transition: 4s;
-    box-shadow: 0 0 11px rgba(33,33,33,.1); 
+    box-shadow: 0 0 11px rgba(33,33,33,.1);
 }
 .card:hover{
     transition: 2s;
@@ -284,7 +284,7 @@ a {text-decoration: none; background-color: none; }
     -ms-transform: all .3s ease-in-out time;
     -o-transform: all .3s ease-in-out time;
     transition: all .3s ease-in-out time;
-    box-shadow: 0 10px 11px rgba(33,33,33,.2); 
+    box-shadow: 0 10px 11px rgba(33,33,33,.2);
 }
 /* !menu.blade.php end */
 
