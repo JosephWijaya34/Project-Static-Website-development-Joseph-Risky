@@ -81,7 +81,11 @@
         </footer>
     </div>
 
-    <a href="#" class="myBtn" title="Go to top">Top</a>
+    <a href="#" class="myBtn text-center" title="Go to top">
+        <iconify-icon icon="akar-icons:circle-chevron-up" width="40" class="mx-auto text-center mt-1 "></iconify-icon>
+    </a>
+
+
 
 
 
@@ -95,7 +99,7 @@
     <script src="js/script.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 
 </body>
 

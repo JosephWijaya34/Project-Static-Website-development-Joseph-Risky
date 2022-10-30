@@ -40,7 +40,7 @@
         <div class=" row justify-content-center sectionSpace">
             @foreach ($listMakanan as $makanan)
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                    <div class="card shadow-sm">
+                    <div class="card shadow-sm" data-aos="fade"  data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <img src="img\{{ $makanan['fotoMakanan'] }}" alt="..." style="width: auto; object-fit: cover;">
                         <div class="card-body">
                             <div class="p-3 row text-short-container justify-content-center">
@@ -70,6 +70,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button buttonMenu" class="btn buttonMenu" data-bs-dismiss="modal">Close</button>
+                                <a target="_blank"  class="btn btn-success"  href="https://api.whatsapp.com/send?phone=6282221030638&text=Halo,%20saya%20ingin%20bertanya%20seputar%20produk%20{{$makanan['namaMakanan']}}" >Pertanyaan Lebih Lanjut</a>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@
 @section('hero')
     <div class="container heroSpace">
         <div class="d-flex justify-content-center align-items-center flex-column">
-            <div class="row justify-content-center text-center">
+            <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="200">
                 <h1 class="col-md-7 fontTebal gradient">Always Give Priority To Taste & Quality </h1>
                 <p class="col-md-8 fontTipis heroParagraph mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
@@ -20,11 +20,11 @@
     {{-- About Us Section Start --}}
     <div id="about" class="container ">
         <div class="sectionSpace">
-            <h5 class="fontTebal gradient">
+            <h5 class="fontTebal gradient" data-aos="fade-right" data-aos-delay="350">
                 ABOUT US
             </h5>
             <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-12 col-lg-5 about-first">
+                <div class="col-12 col-lg-5 about-first" data-aos="flip-up" data-aos-delay="500">
                     <h3 class="fontTebal">TEXT 1</h3>
                     <p class="fontTipis ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
@@ -32,7 +32,7 @@
                     </p>
                 </div>
 
-                <div class="col-12 col-lg-5 about-second">
+                <div class="col-12 col-lg-5 about-second" data-aos="flip-up" data-aos-delay="500">
                     <h3 class="fontTebal">TEXT 2</h3>
                     <p class="fontTipis ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
@@ -51,15 +51,15 @@
             <div class="row justify-content-center mt-4 mb-4">
 
 
-                <div class="col-12 col-lg-3 service-first mx-4 m">
+                <div class="col-12 col-lg-3 service-first mx-4" data-aos="fade-down" data-aos-delay="200">
                     <div class="text-center">
                         {{-- buat logo gambar service --}}
-                        <div class="dot rounded m-4 ">
+                        <div class="dot rounded m-4 " data-aos="fade-down">
                             <iconify-icon icon="carbon:order-details" style="color: #d0a138;" width="55" height="50">
                             </iconify-icon>
                         </div>
                         {{-- buat isi paragraf --}}
-                        <div class="">
+                        <div class="" data-aos="fade-down" data-aos-delay="200">
                             <h4 class="fontTebal warnaFontService text-center">Easy to Order</h4>
                             <p class="fontTipis warnaFontService text-center ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam
@@ -76,12 +76,12 @@
                 <div class="col-12 col-lg-3 service-first mx-4">
                     <div class="text-center">
                         {{-- buat logo gambar service --}}
-                        <div class="dot rounded m-4 ">
+                        <div class="dot rounded m-4 " data-aos="fade-down" data-aos-delay="400">
                             <iconify-icon icon="bxs:book-bookmark" style="color: #d0a138;" width="55" height="50">
                             </iconify-icon>
                         </div>
                         {{-- buat isi paragraf --}}
-                        <div class="">
+                        <div class="" data-aos="fade-down" data-aos-delay="400">
                             <h4 class="fontTebal warnaFontService text-center">Best Quality</h4>
                             <p class="fontTipis warnaFontService text-center ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam
@@ -98,12 +98,12 @@
                 <div class="col-12 col-lg-3 service-first mx-4">
                     <div class="text-center">
                         {{-- buat logo gambar service --}}
-                        <div class="dot rounded m-4 ">
+                        <div class="dot rounded m-4 " data-aos="fade-down" data-aos-delay="600">
                             <iconify-icon icon="carbon:delivery" style="color: #d0a138;" width="55" height="50">
                             </iconify-icon>
                         </div>
                         {{-- buat isi paragraf --}}
-                        <div class="">
+                        <div class="" data-aos="fade-down" data-aos-delay="600">
                             <h4 class="fontTebal warnaFontService text-center">On Time</h4>
                             <p class="fontTipis warnaFontService text-center ">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam
@@ -128,7 +128,7 @@
         <div class="sectionSpace backgroundOurSpecialMenu">
             {{-- text Our special menu Start --}}
             <div class="row d-flex flex-column justify-content-center align-items-center text-center">
-                <h3 class="textColourPartner fontTebal">Menu</h3>
+                <h3 class="textColourPartner fontTebal" data-aos="">Menu</h3>
                 <h2 class="textColourOurSpecialMenu fontTebal">Our Special Menu</h2>
                 <p class="w-32 fontTipis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit
                     voluptatem debitis possimus neque itaque in cumque illo, tenetur alias suscipit eum quidem aut, voluptas
