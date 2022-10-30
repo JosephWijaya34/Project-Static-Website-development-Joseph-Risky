@@ -3,7 +3,7 @@
 
 @section('hero')
     <div class="container heroSpace">
-        <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex justify-content-center align-items-center flex-column " data-aos="fade-up"  data-aos-delay="50" data-aos-delay="3000">
             <div class="row justify-content-center text-center">
                 <h1 class="col-md-7 fontTebal gradient">Always Give Priority To Taste & Quality </h1>
                 <p class="col-md-8 fontTipis heroParagraph mt-4">

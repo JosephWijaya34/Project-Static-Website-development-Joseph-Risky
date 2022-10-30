@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Makanan;
+use App\Models\Partner;
 use App\Http\Requests\StoreMakananRequest;
 use App\Http\Requests\UpdateMakananRequest;
 
@@ -17,7 +18,8 @@ class MakananController extends Controller
     {
         return view('home', [
             'title' => 'Home',
-            'listMakanan' => Makanan::index()
+            'listMakanan' => Makanan::index(),
+            'listPartner' => Partner::index()
         ]);
     }
     public function indexMenu()

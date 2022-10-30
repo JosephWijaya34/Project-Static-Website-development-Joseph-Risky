@@ -16,14 +16,7 @@ use App\Http\Controllers\PartnerController;
 */
 
 Route::get('/', [
-    MakananController::class, 'indexHome',
-    PartnerController::class, 'index'
+    MakananController::class, 'indexHome'
 ]);
 
 Route::get('/menu', [MakananController::class, 'indexMenu']);
-
-// Route::get('/detail', function (){
-//     return view('detail', [
-//         'title' => 'Detail'
-//     ]);
-// });
