@@ -7,7 +7,7 @@
 
             {{-- image mobile --}}
             <div id="showHeroMobile" class="col-12 col-lg-6 heroSecond text-center mb-3" style="display: none;">
-                <img class="w-75 rounded-3" src="img/salmonSushiRoll.jpeg">
+                <img class="w-75 rounded-3" src="img/makanan/salmonSushiRoll.jpeg">
             </div>
 
             <div class="col-12 col-lg-5 background">
@@ -20,7 +20,7 @@
 
             {{-- image dekstop --}}
             <div id="showHeroDekstop" class="col-12 col-lg-6  text-center">
-                <img class="w-75 rounded-3" src="img/salmonSushiRoll.jpeg">
+                <img class="w-75 rounded-3" src="img/makanan/salmonSushiRoll.jpeg">
             </div>
 
         </div>

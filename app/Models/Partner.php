@@ -13,13 +13,13 @@ class Partner extends Model
         [
             'id' => 1,
             'namaPartner' => 'Hokky',
-            'fotoPartner' => 'hokky.png'
+            'fotoPartner' => '/partner/hokky.png'
 
         ],
         [
             'id' => 2,
             'namaPartner' => 'Chicco',
-            'fotoPartner' => 'chicco.png'
+            'fotoPartner' => '/partner/chicco.png'
         ]
     ];
 
