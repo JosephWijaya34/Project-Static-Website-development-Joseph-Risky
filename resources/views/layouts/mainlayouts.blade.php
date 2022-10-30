@@ -17,6 +17,7 @@
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
@@ -35,19 +36,19 @@
                         <a class="nav-link hoverNav" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#about">About</a>
+                        <a class="nav-link hoverNav active" href="/#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link hoverNav" href="/menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#service">Service</a>
+                        <a class="nav-link scrollto hoverNav" href="/#service">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#parthner">Partner</a>
+                        <a class="nav-link scrollto hoverNav" href="/#parthner">Partner</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scrollto hoverNav" href="#contact">Contact</a>
+                        <a class="nav-link scrollto hoverNav" href="/#contact">Contact</a>
                     </li>
                 </ul>
 
@@ -58,30 +59,30 @@
         @yield('hero')
     </div>
 
-        @yield('content')
+    @yield('content')
 
-     
-            <div class="" style="background-color:black;">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 container" >
-                  <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
-              
-                  <a href="/" class="col-md-4 gradient justify-content-center text-center align-items-center">
-                    PAPA JOE'S
-                  </a>
-              
-                  <ul class="nav col-md-4 justify-content-md-end footerHide">
-                    <li class="nav-item "><a href="#" class="nav-link px-2 footerWhite">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link px-2 footerWhite">About</a></li>
-                    <li class="nav-item"><a href="/menu" class="nav-link px-2 footerWhite">Menu</a></li>
-                    <li class="nav-item"><a href="#service" class="nav-link px-2 footerWhite">Service</a></li>
-                    <li class="nav-item"><a href="#parthner" class="nav-link px-2 footerWhite">Pathner</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link px-2 footerWhite">Contact</a></li>
-                  </ul>
-                </footer>
-            </div>
 
-            <a href="#" class="myBtn" title="Go to top">Top</a>
-    
+    <div class="" style="background-color:black;">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 p-5 container">
+            <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+
+            <a href="/" class="col-md-4 gradient justify-content-center text-center align-items-center">
+                PAPA JOE'S
+            </a>
+
+            <ul class="nav col-md-4 justify-content-md-end footerHide">
+                <li class="nav-item "><a href="#" class="nav-link px-2 footerWhite">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link px-2 footerWhite">About</a></li>
+                <li class="nav-item"><a href="/menu" class="nav-link px-2 footerWhite">Menu</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link px-2 footerWhite">Service</a></li>
+                <li class="nav-item"><a href="#parthner" class="nav-link px-2 footerWhite">Pathner</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link px-2 footerWhite">Contact</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <a href="#" class="myBtn" title="Go to top">Top</a>
+
 
 
     <!-- JavaScript Bundle with Popper -->
@@ -90,8 +91,11 @@
     </script>
     {{-- !link js --}}
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 

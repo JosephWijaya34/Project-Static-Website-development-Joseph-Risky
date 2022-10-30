@@ -40,17 +40,41 @@
         <div class=" row justify-content-center sectionSpace">
             @foreach ($listMakanan as $makanan)
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                    <div class="card  shadow-sm">
+                    <div class="card shadow-sm">
                         <img src="img\{{ $makanan['fotoMakanan'] }}" alt="..." style="width: auto; object-fit: cover;">
                         <div class="card-body">
                             <div class="p-3 row text-short-container justify-content-center">
                                 <h5 class="card-title text-center cardHeadText">{{ $makanan['namaMakanan'] }}</h5>
                                 <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}</p>
-                                <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
-                                    data-bs-toggle="modal" data-bs-target="/detailMakanan/{{ $makanan['id'] }}">Detail</a>
+                                {{-- <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
+                                    data-bs-toggle="modal" data-bs-target="">Detail</a> --}}
+                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal{{$loop->iteration}}">
+                                    Detail
+                                </button>
                             </div>
                         </div>
 
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal{{ $loop->iteration }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">{{ $makanan['namaMakanan'] }}</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="card-text cardParagraphText">{{ $makanan['deskripsi'] }}</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button buttonMenu" class="btn " data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             @endforeach
@@ -146,8 +170,8 @@
 
 
     {{-- modal --}}
-    @if (isset('detail'))
-        <div class="modal fade" id="/detailMakanan/{{ $makanan['id'] }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+    {{-- @isset($detailMakanan)
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -165,6 +189,7 @@
                 </div>
             </div>
         </div>
-    @endif
+    @endisset --}}
+
 
 @endsection

@@ -21,8 +21,6 @@ Route::get('/menu',[
     MakananController::class,'show'
 ]);
 
-Route::get('/detailMakanan/{id}',[MakananController::class,'show']);
-
 Route::get('/detail', function (){
     return view('detail', [
         'title' => 'Detail'
