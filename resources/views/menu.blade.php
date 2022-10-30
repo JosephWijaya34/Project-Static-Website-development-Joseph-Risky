@@ -37,9 +37,9 @@
         {{-- card menu start --}}
 
 
-        <div class=" row justify-content-center sectionSpace">
+        <div class=" row justify-content-center sectionSpace ">
             @foreach ($listMakanan as $makanan)
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3"data-aos="fade-down" >
                     <div class="card shadow-sm">
                         <img src="img\{{ $makanan['fotoMakanan'] }}" alt="..." style="width: auto; object-fit: cover;">
                         <div class="card-body">
@@ -48,7 +48,8 @@
                                 <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}</p>
                                 {{-- <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
                                     data-bs-toggle="modal" data-bs-target="">Detail</a> --}}
-                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal" data-bs-target="#exampleModal{{$loop->iteration}}">Detail</button>
+                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal{{ $loop->iteration }}">Detail</button>
                             </div>
                         </div>
 
@@ -56,8 +57,8 @@
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal{{ $loop->iteration }}" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
+                <div class="modal fade" id="exampleModal{{ $loop->iteration }}" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -69,124 +70,20 @@
                                 <p class="card-text cardParagraphText">{{ $makanan['deskripsi'] }}</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button buttonMenu" class="btn buttonMenu" data-bs-dismiss="modal">Close</button>
+                                <button type="button buttonMenu" class="btn buttonMenu"
+                                    data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 </div>
             @endforeach
 
-            {{-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                <div class="card  shadow-sm">
-                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container justify-content-center">
-                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
-                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Detail</a>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                <div class="card  shadow-sm">
-                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container justify-content-center">
-                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
-                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Detail</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                <div class="card  shadow-sm">
-                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container justify-content-center">
-                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
-                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Detail</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                <div class="card  shadow-sm">
-                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container justify-content-center">
-                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
-                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Detail</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                <div class="card  shadow-sm">
-                    <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
-                    <div class="card-body">
-                        <div class="p-3 row text-short-container justify-content-center">
-                            <h5 class="card-title text-center cardHeadText">Nama Makanan</h5>
-                            <p class="card-text  text-short-container cardParagraphText">Some quick example text to build on the card title
-                                and make up the bulk of
-                                the card's content. </p>
-                            <a href="detail" class="btn buttonMenu" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Detail</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div> --}}
 
             {{-- card menu end --}}
         </div>
     </div>
 
-
-    {{-- modal --}}
-    {{-- @isset($detailMakanan)
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">{{ $detailMakanan['namaMakanan'] }}</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>{{ $detailMakanan['deskripsi'] }}</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    @endisset --}}
 
 
 @endsection
