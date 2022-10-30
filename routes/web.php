@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MakananController;
-use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MenuController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,12 +16,9 @@ use App\Http\Controllers\PartnerController;
 |
 */
 
-Route::get('/', [
-    MakananController::class, 'indexHome',
-    PartnerController::class, 'index'
-]);
+Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/menu', [MakananController::class, 'indexMenu']);
+Route::get('/menu', [MenuController::class, 'index']);
 
 // Route::get('/detail', function (){
 //     return view('detail', [

@@ -51,7 +51,7 @@ class Makanan extends Model
         return collect(self::$listMakanan);
     }
 
-    public static function showMakanan($id){
-        return self::index()->firstWhere('id', $id);
-    }
+    // public static function showMakanan($id){
+    //     return self::index()->firstWhere('id', $id);
+    // }
 }

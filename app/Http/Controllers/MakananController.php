@@ -13,19 +13,9 @@ class MakananController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function indexHome()
+    public function index()
     {
-        return view('home', [
-            'title' => 'Home',
-            'listMakanan' => Makanan::index()
-        ]);
-    }
-    public function indexMenu()
-    {
-        return view('menu', [
-            'title' => 'Menu',
-            'listMakanan' => Makanan::index()
-        ]);
+
     }
 
     /**
