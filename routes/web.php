@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\MakananController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MakananController;
+use App\Http\Controllers\PartnerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,15 +15,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[MakananController::class,'indexHome']);
-
-Route::get('/menu',[
-    MakananController::class,'indexMenu',
-    MakananController::class,'show'
+Route::get('/', [
+    MakananController::class, 'indexHome',
+    PartnerController::class, 'index'
 ]);
 
-Route::get('/detail', function (){
-    return view('detail', [
-        'title' => 'Detail'
-    ]);
-});
+Route::get('/menu', [MakananController::class, 'indexMenu']);
+
+// Route::get('/detail', function (){
+//     return view('detail', [
+//         'title' => 'Detail'
+//     ]);
+// });

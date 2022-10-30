@@ -48,10 +48,7 @@
                                 <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}</p>
                                 {{-- <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
                                     data-bs-toggle="modal" data-bs-target="">Detail</a> --}}
-                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal{{$loop->iteration}}">
-                                    Detail
-                                </button>
+                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal" data-bs-target="#exampleModal{{$loop->iteration}}">Detail</button>
                             </div>
                         </div>
 
@@ -72,7 +69,7 @@
                                 <p class="card-text cardParagraphText">{{ $makanan['deskripsi'] }}</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button buttonMenu" class="btn " data-bs-dismiss="modal">Close</button>
+                                <button type="button buttonMenu" class="btn buttonMenu" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>

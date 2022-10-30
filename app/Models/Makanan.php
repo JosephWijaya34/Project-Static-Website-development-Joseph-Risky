@@ -37,6 +37,13 @@ class Makanan extends Model
             'deskripsi' => 'makanan khas jepang yang nikmat dan di beri bumbu khas PAPA JOE',
             'fotoMakanan' => 'salmonmentai.jpeg',
             'menuFavorite' => 2
+        ],
+        [
+            'id' => 5,
+            'namaMakanan' => 'salmon spicy roll',
+            'deskripsi' => 'makanan khas jepang yang nikmat dan di beri bumbu khas PAPA JOE dengan sedikit pedas',
+            'fotoMakanan' => 'spicysalmonroll.jpeg',
+            'menuFavorite' => 2
         ]
     ];
 

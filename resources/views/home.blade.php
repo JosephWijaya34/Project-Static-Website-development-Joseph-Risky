@@ -204,12 +204,13 @@
         {{-- text partner End --}}
         {{-- image partner start --}}
         <div class="row justify-content-center align-items-center sectionSpace">
-            <div class="col-12 col-lg-5">
-                <img src="img/hokky.png" class="mb-4 w-100 rounded-5">
-            </div>
-            <div class="col-12 col-lg-5">
-                <img src="img/chicco.png" class="mb-4 w-100 rounded-5">
-            </div>
+            @if ($listPartner)
+                @foreach ($listPartner as $partner)
+                    <div class="col-12 col-lg-5">
+                        <img src="img/{{ $partner['fotoPartner'] }}" class="mb-4 w-100 rounded-5">
+                    </div>
+                @endforeach
+            @endif
         </div>
 
     </div>
