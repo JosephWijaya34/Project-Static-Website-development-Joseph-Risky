@@ -13,8 +13,8 @@
             <div class="col-12 col-lg-5 background">
                 <h1 class="fontTebal gradient">Our Menu</h1>
                 <p class="fontTipis heroParagraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
-                    fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
+                    PAPA JOE'S provides a wide variety of different food with very affordable prices while still maintaining
+                    the best quality.
                 </p>
             </div>
 
@@ -31,7 +31,7 @@
     <div class="container">
         <div class="d-flex flex-column justify-content-center align-items-center sectionSpace">
             <h2>Menu</h2>
-            <p class="w-32">mauris tristique, a molestie sem accumsan. Aenean sem neque, congue vel libero sit </p>
+            <p class="w-32">Our selection of Papa Joe Menu</p>
         </div>
 
         {{-- card menu start --}}
@@ -40,7 +40,7 @@
         <div class=" row justify-content-center sectionSpace">
             @foreach ($listMakanan as $makanan)
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
-                    <div class="card shadow-sm" data-aos="fade"  data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div class="card shadow-sm" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <img src="img\{{ $makanan['fotoMakanan'] }}" alt="..." style="width: auto; object-fit: cover;">
                         <div class="card-body">
                             <div class="p-3 row text-short-container justify-content-center">
@@ -48,7 +48,8 @@
                                 <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}</p>
                                 {{-- <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
                                     data-bs-toggle="modal" data-bs-target="">Detail</a> --}}
-                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal" data-bs-target="#exampleModal{{$loop->iteration}}">Detail</button>
+                                <button type="button" class="btn buttonMenu" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal{{ $loop->iteration }}">Detail</button>
                             </div>
                         </div>
 
@@ -56,8 +57,8 @@
                 </div>
 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal{{ $loop->iteration }}" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
+                <div class="modal fade" id="exampleModal{{ $loop->iteration }}" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -69,8 +70,11 @@
                                 <p class="card-text cardParagraphText">{{ $makanan['deskripsi'] }}</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button buttonMenu" class="btn buttonMenu" data-bs-dismiss="modal">Close</button>
-                                <a target="_blank"  class="btn btn-success"  href="https://api.whatsapp.com/send?phone=6282221030638&text=Halo,%20saya%20ingin%20bertanya%20seputar%20produk%20{{$makanan['namaMakanan']}}" >Pertanyaan Lebih Lanjut</a>
+                                <button type="button buttonMenu" class="btn buttonMenu"
+                                    data-bs-dismiss="modal">Close</button>
+                                <a target="_blank" class="btn btn-success"
+                                    href="https://api.whatsapp.com/send?phone=6282221030638&text=Halo,%20saya%20ingin%20bertanya%20seputar%20produk%20{{ $makanan['namaMakanan'] }}">Pertanyaan
+                                    Lebih Lanjut</a>
                             </div>
                         </div>
                     </div>

@@ -4,12 +4,12 @@
 @section('hero')
     <div class="container heroSpace">
         <div class="d-flex justify-content-center align-items-center flex-column">
-            <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="row justify-content-center text-center" data-aos="fade-up" d ata-aos-delay="200" data-aos-easing="ease"
+                data-aos-duration="1000">
                 <h1 class="col-md-7 fontTebal gradient">Always Give Priority To Taste & Quality </h1>
                 <p class="col-md-8 fontTipis heroParagraph mt-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
-                    fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
-                </p>
+                    We strive to provide food that's healthy, delicious, and clean. Food that is always fresh and new for
+                    our customers.
             </div>
 
         </div>
@@ -25,18 +25,18 @@
             </h5>
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-12 col-lg-5 about-first" data-aos="flip-up" data-aos-delay="500">
-                    <h3 class="fontTebal">TEXT 1</h3>
+                    <h3 class="fontTebal">FOOD</h3>
                     <p class="fontTipis ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
-                        fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
-                    </p>
+                        PAPA JOE'S is a business in the food & beverages industry that offers different types of food.
+                        Starting from Indonesian, Chinese, and Western cuisine. </p>
                 </div>
 
                 <div class="col-12 col-lg-5 about-second" data-aos="flip-up" data-aos-delay="500">
-                    <h3 class="fontTebal">TEXT 2</h3>
+                    <h3 class="fontTebal">ORDER</h3>
                     <p class="fontTipis ">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis arcu et lorem
-                        fermentum fermentum. Mauris non nulla posuere, tempus nisl ac, faucibus ex.
+                        Accepting orders including small & big orders. Also serving catering and big events. For
+                        now PAPA JOE'S is not available for purchase in offline stores, but PAPA JOE'S products are
+                        available in multiple partner stores
                     </p>
                 </div>
             </div>
@@ -47,8 +47,8 @@
 
     {{-- Section Service Start --}}
     <div id="service" class=" sectionSpace backgroundService">
-        <div id="Service" class="container">
-            <div class="row justify-content-center mt-4 mb-4">
+        <div id="Service" class="container m-5">
+            <div class="row justify-content-center mt-4 mb-5">
 
 
                 <div class="col-12 col-lg-3 service-first mx-4" data-aos="fade-down" data-aos-delay="200">
@@ -61,13 +61,8 @@
                         {{-- buat isi paragraf --}}
                         <div class="" data-aos="fade-down" data-aos-delay="200">
                             <h4 class="fontTebal warnaFontService text-center">Easy to Order</h4>
-                            <p class="fontTipis warnaFontService text-center ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam
-                                accusantium
-                                officia sapiente impedit praesentium quod exercitationem vitae ipsa qui sit perspiciatis
-                                atque
-                                itaque, delectus laborum rem quisquam nisi!
-                            </p>
+                            <p class="fontTipis warnaFontService text-center">simple ordering process and fast response from
+                                seller.</p>
                         </div>
                     </div>
 
@@ -83,13 +78,8 @@
                         {{-- buat isi paragraf --}}
                         <div class="" data-aos="fade-down" data-aos-delay="400">
                             <h4 class="fontTebal warnaFontService text-center">Best Quality</h4>
-                            <p class="fontTipis warnaFontService text-center ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam
-                                accusantium
-                                officia sapiente impedit praesentium quod exercitationem vitae ipsa qui sit perspiciatis
-                                atque
-                                itaque, delectus laborum rem quisquam nisi!
-                            </p>
+                            <p class="fontTipis warnaFontService text-center">providing the best quality ingredients to make
+                                the best quality food</p>
                         </div>
                     </div>
 
@@ -105,12 +95,7 @@
                         {{-- buat isi paragraf --}}
                         <div class="" data-aos="fade-down" data-aos-delay="600">
                             <h4 class="fontTebal warnaFontService text-center">On Time</h4>
-                            <p class="fontTipis warnaFontService text-center ">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore aliquam
-                                accusantium
-                                officia sapiente impedit praesentium quod exercitationem vitae ipsa qui sit perspiciatis
-                                atque
-                                itaque, delectus laborum rem quisquam nisi!
+                            <p class="fontTipis warnaFontService text-center">always providing your food in the right time.
                             </p>
                         </div>
                     </div>
@@ -130,9 +115,7 @@
             <div class="row d-flex flex-column justify-content-center align-items-center text-center">
                 <h3 class="textColourPartner fontTebal" data-aos="">Menu</h3>
                 <h2 class="textColourOurSpecialMenu fontTebal">Our Special Menu</h2>
-                <p class="w-32 fontTipis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reprehenderit
-                    voluptatem debitis possimus neque itaque in cumque illo, tenetur alias suscipit eum quidem aut, voluptas
-                    cupiditate minus ut dolorem consequuntur?
+                <p class="w-32 fontTipis">Best Selection Menu that you must try from PAPA JOE'S
                 </p>
             </div>
         </div>
