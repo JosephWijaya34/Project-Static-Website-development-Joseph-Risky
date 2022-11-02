@@ -49,14 +49,14 @@ class Makanan extends Model
             'id' => 6,
             'namaMakanan' => 'Sate Babi',
             'deskripsi' => 'Daging babi pilihan yang di kelolah dengan bumbu khas PAPA JOE dan di bakar',
-            'fotoMakanan' => '/makanan/satebabi.jpeg',
+            'fotoMakanan' => '/makanan/satebabi.png',
             'menuFavorite' => 2
         ],
         [
             'id' => 7,
             'namaMakanan' => 'Kebab',
             'deskripsi' => 'isian daging sapi dengan sayur dan saos khas PAPA JOE',
-            'fotoMakanan' => '/makanan/kebab.jpeg',
+            'fotoMakanan' => '/makanan/kebab.png',
             'menuFavorite' => 2
         ]
     ];
