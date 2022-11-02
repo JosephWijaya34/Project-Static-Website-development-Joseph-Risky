@@ -13,7 +13,7 @@ class Makanan extends Model
         [
             'id' => 1,
             'namaMakanan' => 'Salmon Sushi Roll',
-            'deskripsi' => 'Sushi dengan isian salmon rasanya anjing banget',
+            'deskripsi' => 'Sushi dengan isian salmon yang di padukan dengan bumbu dan saos khas PAPA JOE',
             'fotoMakanan' => '/makanan/SalmonSushiRoll.jpeg',
             'menuFavorite' => 1
         ],
@@ -43,6 +43,20 @@ class Makanan extends Model
             'namaMakanan' => 'salmon spicy roll',
             'deskripsi' => 'makanan khas jepang yang nikmat dan di beri bumbu khas PAPA JOE dengan sedikit pedas',
             'fotoMakanan' => '/makanan/spicysalmonroll.jpeg',
+            'menuFavorite' => 2
+        ],
+        [
+            'id' => 6,
+            'namaMakanan' => 'Sate Babi',
+            'deskripsi' => 'Daging babi pilihan yang di kelolah dengan bumbu khas PAPA JOE dan di bakar',
+            'fotoMakanan' => '/makanan/satebabi.jpeg',
+            'menuFavorite' => 2
+        ],
+        [
+            'id' => 7,
+            'namaMakanan' => 'Kebab',
+            'deskripsi' => 'isian daging sapi dengan sayur dan saos khas PAPA JOE',
+            'fotoMakanan' => '/makanan/kebab.jpeg',
             'menuFavorite' => 2
         ]
     ];

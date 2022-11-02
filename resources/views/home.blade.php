@@ -47,14 +47,12 @@
 
     {{-- Section Service Start --}}
     <div id="service" class=" sectionSpace backgroundService">
-        <div id="Service" class="container m-5">
-            <div class="row justify-content-center mt-4 mb-5">
-
-
-                <div class="col-12 col-lg-3 service-first mx-4" data-aos="fade-down" data-aos-delay="200">
+        <div id="Service" class="container mx-auto backgroundService">
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-12 col-lg-3 service-first mx-4" style="margin-top: 2vh; margin-bottom: 2vh">
                     <div class="text-center">
                         {{-- buat logo gambar service --}}
-                        <div class="dot rounded m-4 " data-aos="fade-down">
+                        <div class="dot rounded m-4 " data-aos="fade-down" data-aos-delay="200">
                             <iconify-icon icon="carbon:order-details" style="color: #d0a138;" width="55" height="50">
                             </iconify-icon>
                         </div>
@@ -68,7 +66,7 @@
 
                 </div>
 
-                <div class="col-12 col-lg-3 service-first mx-4">
+                <div class="col-12 col-lg-3 service-first mx-4" style="margin-top: 2vh; margin-bottom: 2vh">
                     <div class="text-center">
                         {{-- buat logo gambar service --}}
                         <div class="dot rounded m-4 " data-aos="fade-down" data-aos-delay="400">
@@ -85,7 +83,7 @@
 
                 </div>
 
-                <div class="col-12 col-lg-3 service-first mx-4">
+                <div class="col-12 col-lg-3 service-first mx-4" style="margin-top: 2vh; margin-bottom: 2vh">
                     <div class="text-center">
                         {{-- buat logo gambar service --}}
                         <div class="dot rounded m-4 " data-aos="fade-down" data-aos-delay="600">
@@ -113,18 +111,15 @@
         <div class="sectionSpace backgroundOurSpecialMenu">
             {{-- text Our special menu Start --}}
             <div class="row d-flex flex-column justify-content-center align-items-center text-center">
-                <h3 class="textColourPartner fontTebal" data-aos="">Menu</h3>
-                <h2 class="textColourOurSpecialMenu fontTebal">Our Special Menu</h2>
-                <p class="w-32 fontTipis">Best Selection Menu that you must try from PAPA JOE'S
+                <h3 class="textColourPartner fontTebal" data-aos="fade-down" data-aos-delay="200">Menu</h3>
+                <h2 class="textColourOurSpecialMenu fontTebal" data-aos="fade-down" data-aos-delay="400">Our Special Menu</h2>
+                <p class="w-32 fontTipis" data-aos="fade-down" data-aos-delay="600">Best Selection Menu that you must try from PAPA JOE'S
                 </p>
             </div>
         </div>
 
-        <div id="carouselExampleIndicators" class="carousel slide col-lg-6 offset-lg-3" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide col-lg-6 offset-lg-3" data-bs-ride="carousel" data-aos="zoom-in" data-aos-delay="600">
             <div class="carousel-indicators">
-
-
-
                 @if ($listMakanan)
                     @foreach ($listMakanan as $makananFavorite)
                         @if ($makananFavorite['menuFavorite'] == 1)
@@ -155,9 +150,6 @@
                         @endif
                     @endforeach
                 @endif
-
-
-
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -180,13 +172,13 @@
         <div class="sectionSpace backgroundPartner">
             {{-- text partner Start --}}
             <div class="row d-flex flex-column justify-content-center align-items-center text-center">
-                <h3 class="textColourPartner fontTebal">Partner</h3>
-                <h1 class="textColourPartner fontTebal">Our Partner</h1>
+                <h3 class="textColourPartner fontTebal" data-aos="fade-down" data-aos-delay="250">Partner</h3>
+                <h1 class="textColourPartner fontTebal" data-aos="fade-down" data-aos-delay="500">Our Partner</h1>
             </div>
         </div>
         {{-- text partner End --}}
         {{-- image partner start --}}
-        <div class="row justify-content-center align-items-center sectionSpace">
+        <div class="row justify-content-center align-items-center sectionSpace" data-aos="zoom-in-up" data-aos-delay="500">
             @if ($listPartner)
                 @foreach ($listPartner as $partner)
                     <div class="col-12 col-lg-5">
@@ -206,13 +198,13 @@
         <div class="container ">
             {{-- text Contact Start --}}
             <div class="row d-flex flex-column justify-content-center align-items-center text-center ">
-                <h3 class="textColourContact1 fontTebal mt-3">Contact</h3>
-                <h1 class="textColourContact2 fontTebal">Contact Us</h1>
+                <h3 class="textColourContact1 fontTebal mt-3" data-aos="fade-down" data-aos-delay="200">Contact</h3>
+                <h1 class="textColourContact2 fontTebal" data-aos="fade-down" data-aos-delay="400">Contact Us</h1>
             </div>
             {{-- text Contact End --}}
             {{-- info Contact Start --}}
             <div class="row d-flex flex-row justify-content-center mt-4">
-                <div class="col-12 col-lg-7 mb-4 ">
+                <div class="col-12 col-lg-7 mb-4" data-aos="zoom-out" data-aos-delay="700" data-aos-duration="2000">
                     <iframe class="rounded-5" class="w-full"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6477440933427!2d112.68721011530367!3d-7.280860973575773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc3d3c4b4485%3A0x6ccfddfc0b27c2c1!2sJl.%20Darmo%20Permai%20Sel.%20XIII%20No.6%2C%20Pradahkalikendal%2C%20Kec.%20Dukuhpakis%2C%20Kota%20SBY%2C%20Jawa%20Timur%2060226!5e0!3m2!1sid!2sid!4v1666795738505!5m2!1sid!2sid"
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -222,15 +214,15 @@
                     <div class="d-flex justify-content-center bd-highlight mb-3 row ">
 
                         <div class="col-12 ">
-                            <div class="d-flex ">
-                                <div class="">
+                            <div class="d-flex">
+                                <div data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
                                     <iconify-icon class="textColourContact1" icon="akar-icons:location" width="50"
                                         height="50"></iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">
-                                    <h4 class="textColourContact1 fontTebal">Location</h4>
-                                    <p class="textColourContact1 fontTipis">Darmo Permai Selatan</p>
+                                    <h4 class="textColourContact1 fontTebal" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">Location</h4>
+                                    <p class="textColourContact1 fontTipis" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">Darmo Permai Selatan</p>
                                 </div>
 
                             </div>
@@ -238,15 +230,15 @@
 
                         <div class="col-12">
                             <div class="d-flex">
-                                <div class="">
+                                <div data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
                                     <iconify-icon icon="tabler:clock-hour-3" width="50" height="50"
                                         class="textColourContact1">
                                     </iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">
-                                    <h4 class="textColourContact1 fontTebal">Open Hours</h4>
-                                    <p class="textColourContact1 fontTipis">10.00 - 15.00 WIB</p>
+                                    <h4 class="textColourContact1 fontTebal" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">Open Hours</h4>
+                                    <p class="textColourContact1 fontTipis" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">10.00 - 15.00 WIB</p>
                                 </div>
 
                             </div>
@@ -254,15 +246,15 @@
 
                         <div class="col-12">
                             <div class="d-flex">
-                                <div class="">
+                                <div data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
                                     <iconify-icon icon="dashicons:email-alt" width="50" height="50"
                                         class="textColourContact1">
                                     </iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">
-                                    <h4 class="textColourContact1 fontTebal">E-Mail</h4>
-                                    <p class="textColourContact1 fontTipis">papajoe@gmail.com</p>
+                                    <h4 class="textColourContact1 fontTebal" data-aos="fade-down" data-aos-delay="700" data-aos-duration="1000">E-Mail</h4>
+                                    <p class="textColourContact1 fontTipis" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">papajoe@gmail.com</p>
                                 </div>
 
                             </div>
@@ -270,15 +262,15 @@
 
                         <div class="col-12">
                             <div class="d-flex">
-                                <div class="">
+                                <div data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">
                                     <iconify-icon icon="bxl:whatsapp" width="50" height="50"
                                         class="textColourContact1">
                                     </iconify-icon>
                                 </div>
 
                                 <div class="" style="margin-left: 10px">
-                                    <h4 class="textColourContact1 fontTebal">WhatsApp</h4>
-                                    <p class="textColourContact1 fontTipis">+62 8222 1030 638</p>
+                                    <h4 class="textColourContact1 fontTebal" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">WhatsApp</h4>
+                                    <p class="textColourContact1 fontTipis" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">+62 8222 1030 638</p>
                                 </div>
 
                             </div>
