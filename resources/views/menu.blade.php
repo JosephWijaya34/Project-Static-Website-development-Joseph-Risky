@@ -27,27 +27,38 @@
 
     </div>
 
-
     <div class="container">
         <div class="d-flex flex-column justify-content-center align-items-center sectionSpace">
             <h2>Menu</h2>
             <p class="w-32">Our selection of Papa Joe Menu</p>
         </div>
-
+        <div class="d-flex flex-column justify-content-center align-items-center sectionSpace">
+            <div class="row">
+                <form action="" method="">
+                    <div class="col-6">
+                        <button name="tipe" value="halal" class="btn btn-success">Halal</button>
+                    </div>
+                    <div class="col-6">
+                        <button name="tipe" value="nonhalal" class="btn btn-danger">Non - Halal</button>
+                    </div>
+                </form>
+            </div>
+        </div>
         {{-- card menu start --}}
-
 
         <div class=" row justify-content-center sectionSpace">
             @foreach ($listMakanan as $makanan)
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
                     <div class="card shadow-sm" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <img src="img\{{ $makanan['fotoMakanan'] }}" alt="..." style="width: auto; object-fit: cover;">
+                        <img src="img\{{ $makanan['fotoMakanan'] }}" alt="..."
+                            style="width: auto; object-fit: cover;">
                         <div class="card-body">
                             <div class="p-3 row text-short-container justify-content-center">
                                 <h5 class="card-title text-center cardHeadText">{{ $makanan['namaMakanan'] }}</h5>
-                                <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}</p>
+                                <p class="card-text  text-short-container cardParagraphText">{{ $makanan['deskripsi'] }}
+                                </p>
                                 {{-- <a id="detail" href="/detailMakanan/{{ $makanan['id'] }}" class="btn buttonMenu"
-                                    data-bs-toggle="modal" data-bs-target="">Detail</a> --}}
+                                data-bs-toggle="modal" data-bs-target="">Detail</a> --}}
                                 <button type="button" class="btn buttonMenu" data-bs-toggle="modal"
                                     data-bs-target="#exampleModal{{ $loop->iteration }}">Detail</button>
                             </div>
@@ -81,7 +92,7 @@
                 </div>
             @endforeach
 
-            {{-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
+        {{-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
                 <div class="card  shadow-sm">
                     <img src="img\DBE350headset.jpg" alt="..." style="width: auto; object-fit: cover;">
                     <div class="card-body">
@@ -166,8 +177,8 @@
                 </div>
             </div> --}}
 
-            {{-- card menu end --}}
-        </div>
+        {{-- card menu end --}}
+    </div>
     </div>
 
 
