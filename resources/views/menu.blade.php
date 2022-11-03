@@ -35,15 +35,14 @@
         <div class="d-flex flex-column justify-content-center align-items-center ">
                 <form action="" method="">
                     
-                        <button name="tipe" value="halal" class="btn btn-success">Halal</button>
-
-                        <button name="tipe" value="nonhalal" class="btn btn-danger">Non - Halal</button>
+                        <button name="tipe" value="halal#konten" class="btn btn-success" >Halal</button>
+                        <button name="tipe" value="nonhalal#konten" class="btn btn-danger" >Non - Halal</button>
 
                 </form>
         </div>
         {{-- card menu start --}}
 
-        <div class=" row justify-content-center sectionSpace">
+        <div class=" row justify-content-center sectionSpace" id="konten">
             @foreach ($listMakanan as $makanan)
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-6 mb-3">
                     <div class="card shadow-sm" data-aos="fade" data-aos-duration="1000" data-aos-easing="ease-in-out">

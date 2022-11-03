@@ -11,7 +11,7 @@ class MenuController extends Controller
         $menu = Makanan::index();
 
         if(request()->has('tipe')) {
-            $menu = Makanan::index()->where('kategori', request()->input('tipe', 'halal') === 'halal' ? 1 : 2);
+            $menu = Makanan::index()->where('kategori', request()->input('tipe', 'halal#konten') === 'halal#konten' ? 1 : 2);
         }
 
         return view('menu', [
