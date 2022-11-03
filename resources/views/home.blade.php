@@ -210,7 +210,7 @@
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 p-2">
                     <div class="d-flex justify-content-center bd-highlight mb-3 row ">
 
                         <div class="col-12 ">
@@ -270,7 +270,7 @@
 
                                 <div class="" style="margin-left: 10px">
                                     <h4 class="textColourContact1 fontTebal" data-aos="fade-down" data-aos-delay="600" data-aos-duration="1000">WhatsApp</h4>
-                                    <p class="textColourContact1 fontTipis" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000">+62 8222 1030 638</p>
+                                    <p class="textColourContact1 fontTipis" data-aos="fade-down" data-aos-delay="800" data-aos-duration="1000" >+62 8222 1030 638</p>
                                 </div>
 
                             </div>
