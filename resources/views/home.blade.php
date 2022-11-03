@@ -204,7 +204,7 @@
             {{-- text Contact End --}}
             {{-- info Contact Start --}}
             <div class="row d-flex flex-row justify-content-center mt-4">
-                <div class="col-12 col-lg-7 mb-4" data-aos="zoom-out" data-aos-delay="700" data-aos-duration="2000">
+                <div class="col-12 col-lg-7 mb-4" data-aos="fade" data-aos-delay="700" data-aos-duration="2000">
                     <iframe class="rounded-5" class="w-full"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6477440933427!2d112.68721011530367!3d-7.280860973575773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc3d3c4b4485%3A0x6ccfddfc0b27c2c1!2sJl.%20Darmo%20Permai%20Sel.%20XIII%20No.6%2C%20Pradahkalikendal%2C%20Kec.%20Dukuhpakis%2C%20Kota%20SBY%2C%20Jawa%20Timur%2060226!5e0!3m2!1sid!2sid!4v1666795738505!5m2!1sid!2sid"
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
