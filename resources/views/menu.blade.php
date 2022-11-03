@@ -32,17 +32,14 @@
             <h2>Menu</h2>
             <p class="w-32">Our selection of Papa Joe Menu</p>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-center sectionSpace">
-            <div class="row">
+        <div class="d-flex flex-column justify-content-center align-items-center ">
                 <form action="" method="">
-                    <div class="col-6">
+                    
                         <button name="tipe" value="halal" class="btn btn-success">Halal</button>
-                    </div>
-                    <div class="col-6">
+
                         <button name="tipe" value="nonhalal" class="btn btn-danger">Non - Halal</button>
-                    </div>
+
                 </form>
-            </div>
         </div>
         {{-- card menu start --}}
 
