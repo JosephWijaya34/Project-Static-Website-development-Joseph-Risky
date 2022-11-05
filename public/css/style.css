@@ -335,6 +335,7 @@ a {text-decoration: none; background-color: none; }
         font-size:15px;
     }
     .cardParagraphText{
+        padding:0px;
         font-size:10px;
     }
      /* card text end */
