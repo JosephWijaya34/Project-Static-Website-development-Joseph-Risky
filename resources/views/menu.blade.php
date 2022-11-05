@@ -35,8 +35,9 @@
         <div class="d-flex flex-column justify-content-center align-items-center ">
                 <form action="" method="">
                     
-                        <button name="tipe" value="halal#konten" class="btn btn-success" >Halal</button>
-                        <button name="tipe" value="nonhalal#konten" class="btn btn-danger" >Non - Halal</button>
+                        <button name="tipe" value="semua" class="btn btn-success">Semua</button>
+                        <button name="tipe" value="halal" class="btn btn-success">Halal</button>
+                        <button name="tipe" value="nonhalal" class="btn btn-danger" >Non - Halal</button>
 
                 </form>
         </div>
