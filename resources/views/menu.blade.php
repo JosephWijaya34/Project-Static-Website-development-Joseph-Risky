@@ -33,11 +33,11 @@
             <p class="w-32">Our selection of Papa Joe Menu</p>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center ">
-                <form action="" method="">
+                <form action="" method="GET">
                     
                         <button name="tipe" value="semua" class="btn btn-success">Semua</button>
                         <button name="tipe" value="halal" class="btn btn-success">Halal</button>
-                        <button name="tipe" value="nonhalal" class="btn btn-danger" >Non - Halal</button>
+                        <button name="tipe" value="nonhalal" class="btn buttonMenu" >Non - Halal</button>
 
                 </form>
         </div>
